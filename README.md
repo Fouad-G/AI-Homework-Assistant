@@ -1,5 +1,6 @@
 
 ```md
+```
 # AI Homework Assistant 📚🤖  
 
 A Python-based assistant for teachers that **automates homework creation** using AI.  
