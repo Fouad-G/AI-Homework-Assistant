@@ -16,7 +16,7 @@ It generates **personalized homework assignments** for students, stores them in 
 
 ---
 
-## 🛠️ Technologies Used  
+## ⚡ Technologies Used  
 - **Python** 🐍  
 - **SQLite** 🗄️  
 - **ReportLab** (for PDF generation) 📄  
@@ -26,41 +26,41 @@ It generates **personalized homework assignments** for students, stores them in 
 ---
 
 ## 📂 Folder Structure  
-```
+```bash
 AI-Homework-Assistant/
-│── database_manager.py  # Handles database operations  
-│── homework_generator.py  # AI-generated homework logic  
-│── pdf_generator.py  # Generates PDFs for homework  
-│── main.py  # Main application logic  
-│── README.md  # Documentation  
-│── requirements.txt  # Required dependencies  
-│── data/  # SQLite database and saved student data  
-│── homework_pdfs/  # Generated homework PDFs, organized by student  
+│── database_manager.py      # Handles database operations  
+│── homework_generator.py    # AI-generated homework logic  
+│── pdf_generator.py         # Generates PDFs for homework  
+│── main.py                  # Main application logic  
+│── README.md                # Documentation  
+│── requirements.txt         # Required dependencies  
+│── data/                    # SQLite database and saved student data  
+│── homework_pdfs/           # Generated homework PDFs, organized by student  
 ```
 
 ---
 
-## 🎯 Installation Guide  
+## 📥 Installation Guide  
 
-### **1️⃣ Clone the Repository**  
+### 🔹 **1. Clone the Repository**  
 ```bash
 git clone https://github.com/yourusername/AI-Homework-Assistant.git
 cd AI-Homework-Assistant
 ```
 
-### **2️⃣ Install Dependencies**  
+### 🔹 **2. Install Dependencies**  
 ```bash
 pip install -r requirements.txt
 ```
 
-### **3️⃣ Run the Application**  
+### 🔹 **3. Run the Application**  
 ```bash
 python main.py
 ```
 
 ---
 
-## 📝 How It Works  
+## 📖 How It Works  
 
 1️⃣ **Teacher enters student & lesson details** 📋  
 2️⃣ **AI generates a customized homework assignment** 🧠  
@@ -70,8 +70,7 @@ python main.py
 
 ---
 
-## 🖥️ Example Usage  
-
+## 🔥 Example Usage  
 ```bash
 Für welchen Schüler (ID)? 1
 Für welche Lesson (ID)? 3
@@ -83,11 +82,11 @@ Für welche Lesson (ID)? 3
 
 ## 🤝 Contributing  
 Want to improve this project? Follow these steps:  
-1. Fork the repo 🍴  
-2. Create a new branch (`git checkout -b feature-xyz`)  
-3. Commit your changes (`git commit -m "Added feature XYZ"`)  
-4. Push the branch (`git push origin feature-xyz`)  
-5. Create a Pull Request 🔥  
+1. **Fork** the repo 🍴  
+2. Create a **new branch** (`git checkout -b feature-xyz`)  
+3. **Commit your changes** (`git commit -m "Added feature XYZ"`)  
+4. **Push to GitHub** (`git push origin feature-xyz`)  
+5. **Create a Pull Request** 🔥  
 
 ---
 
@@ -95,3 +94,4 @@ Want to improve this project? Follow these steps:
 This project is licensed under the **MIT License**.
 
 ---
+```
